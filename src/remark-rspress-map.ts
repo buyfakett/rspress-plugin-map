@@ -8,7 +8,7 @@ import { visit } from 'unist-util-visit';
  */
 export const remarkRspressMap: Plugin<[], Root> = () => {
   return (tree: Root) => {
-    visit(tree, ['html', 'mdxJsxFlowElement', 'mdxJsxTextElement'], (node: any, index: number | null, parent: any) => {
+    visit(tree, ['html', 'mdxJsxFlowElement', 'mdxJsxTextElement'], (node: any, index?: number, parent?: any) => {
       // Handle HTML nodes
       if (node.type === 'html') {
         const htmlContent = node.value;

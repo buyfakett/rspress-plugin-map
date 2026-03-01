@@ -36,8 +36,15 @@
   },
   "devDependencies": {
     "@rspress/core": "^2.0.3",
+    "@types/hast": "^3.0.4",
+    "@types/mdast": "^4.0.4",
+    "@types/node": "^25.3.3",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "unified": "^11.0.5",
+    "unist-util-visit": "^5.1.0"
   }
 }
