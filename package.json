@@ -1,6 +1,6 @@
 {
   "name": "rspress-plugin-map",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rspress plugin for embedding interactive maps",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
